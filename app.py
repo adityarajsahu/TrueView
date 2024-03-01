@@ -11,6 +11,7 @@ def main():
         img_array = np.array(image)
         
         st.image(image, caption="Captured Image", use_column_width=True)
+        st.write("Captured Image Shape: ", img_array.shape)
     
     
 if __name__ == "__main__":
